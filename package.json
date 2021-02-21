@@ -1,6 +1,6 @@
 {
   "name": "merlin-gql",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "author": "silentium-labs",
   "bin": {
     "merlin-gql": "./bin/run"
@@ -98,7 +98,7 @@
     "/npm-shrinkwrap.json",
     "/oclif.manifest.json"
   ],
-  "homepage": "https://github.com/silentium-labs/merlin-gql-cli",
+  "homepage": "https://github.com/silentium-labs/merlin-gql",
   "keywords": [
     "oclif"
   ],
@@ -110,8 +110,8 @@
       "@oclif/plugin-help"
     ]
   },
-  "repository": "silentium-labs/merlin-gql-cli",
-  "bugs": "https://github.com/silentium-labs/merlin-gql-cli/issues",
+  "repository": "silentium-labs/merlin-gql",
+  "bugs": "https://github.com/silentium-labs/merlin-gql/issues",
   "scripts": {
     "postpack": "rimraf oclif.manifest.json",
     "prepack": "rimraf lib && tsc -b && oclif-dev readme && ncp \"src/new/templates\" \"lib/new/templates\" && ncp \"src/db-reverse/templates\" \"lib/db-reverse/templates\"",
